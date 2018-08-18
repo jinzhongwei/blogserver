@@ -1,0 +1,19 @@
+{
+    "LogLevel" : "info",
+
+    "FileWriter" : {
+        "On": true,
+
+        "LogPath" : "./log/blogserver.log.info",
+        "RotateLogPath" : "./log/blogserver.log.info.%Y%M%D%H",
+
+        "WfLogPath" : "./log/blogserver.log.wf",
+        "RotateWfLogPath" : "./log/blogserver.log.wf.%Y%M%D%H"
+    },
+
+    "ConsoleWriter" : {
+        "On" : false,
+        "Color" : true
+    }
+}
+
