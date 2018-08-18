@@ -20,6 +20,7 @@ func NewClient() (*mongo.Client, error) {
 	return client, nil
 }
 
+//查询所有
 func SearchAll() {
 	client, err := NewClient()
 	if err != nil {
